@@ -30,3 +30,4 @@ Perl creation of files
 
 Query user for input file (accept CSV and other formats)
 
+Query user for outpuf file location
