@@ -19,7 +19,7 @@ open($outputfile, ">>", "output.txt")
         or die "cannot open > output.txt: $!";
 
 foreach my $hosts (@hosts) {
-		print $outputfile $hosts."\n";
+	print $outputfile $hosts."\n";
         $hosts = qx(whois $hosts);
         print $outputfile $hosts."\n";
 }
