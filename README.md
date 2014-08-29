@@ -22,12 +22,3 @@ by the script.
 
 Also, this script only works on *nix at the moment as it does system calls to the whois utility as well as touch.
 
-TODO:
-
-Perl implementation of whois
-
-Perl creation of files
-
-Query user for input file (accept CSV and other formats)
-
-Query user for outpuf file location
