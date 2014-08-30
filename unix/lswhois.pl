@@ -26,17 +26,18 @@ foreach my $hosts (@hosts) {
 
 close ($outputfile) || warn "close failed: $!";
 
-my @lines;
-
-open($outputfile, "<", "output.txt")
-        or die "cannot open < output.txt: $!";
-
-my $regex = "Name Server: ";
-
-@lines = grep { /\Q$regex/ } <$outputfile>;
-
-close ($outputfile) || warn "close failed: $!";
-
-for my $lines (@lines) {
-        print $lines."\n";
-}
+#The Following Section Searches Within the output file for a regular expression
+#in this case a string "Name Server:" and then prints to the screen
+#my @lines;
+#open($outputfile, "<", "output.txt")
+#        or die "cannot open < output.txt: $!";
+#
+#my $regex = "Name Server: ";
+#
+#@lines = grep { /\Q$regex/ } <$outputfile>;
+#
+#close ($outputfile) || warn "close failed: $!";
+#
+#for my $lines (@lines) {
+#        print $lines."\n";
+#}
