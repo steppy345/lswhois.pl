@@ -11,6 +11,10 @@ Copy paste your list of domain names that you wish to test into the input.txt fi
 
 Then run the program:
 
+perl lswhois.pl
+
+or
+
 ./lswhois.pl
 
 When the program finishes you will be able to view the output.txt file
