@@ -13,10 +13,6 @@ Then run the program:
 
 perl lswhois.pl
 
-or
-
-./lswhois.pl
-
 When the program finishes you will be able to view the output.txt file
 
 cat output.txt
