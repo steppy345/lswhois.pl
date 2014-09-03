@@ -1,4 +1,4 @@
-lswhois.pl - Featurs Branch
+lswhois.pl - Features Branch
 ==========
 
 Whois Accepts List Input - Additional Features Branch
