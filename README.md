@@ -1,7 +1,7 @@
-lswhois.pl
+lswhois.pl - Featurs Branch
 ==========
 
-Whois Accepts List Input
+Whois Accepts List Input - Additional Features Branch
 
 Usage:
 
